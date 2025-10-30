@@ -8,6 +8,15 @@
         public double? Ancho { get; set; }
         public double? Largo { get; set; }
         public double? Radio { get; set; }
+        
+
+        public string Descripcion 
+        {
+            get 
+            {
+                return $"Id: {Id}, Tipo: {Tipo}, Area: {Area}, Ancho: {Ancho}, Largo: {Largo}, Radio: {Radio}";
+            }
+        }
 
     }
 }
